@@ -1,0 +1,8 @@
+:root {
+  --gradient-color: linear-gradient(90deg, #f87516 0%, #5e11ff 100%);
+  --gradient-light: linear-gradient(180deg, #0d061f 0%, #251e35 100%);
+}
+
+.card {
+  background-color: var(--gradient-light);
+}
