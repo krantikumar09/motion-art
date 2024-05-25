@@ -2,6 +2,7 @@ import "./App.css";
 import Feature from "./components/Feature/Feature";
 import FeaturedCompany from "./components/FeaturedCompany/FeaturedCompany";
 import Features from "./components/Features/Features";
+import FluidSimulation from "./components/FluidAnimation/FluidSimulation";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -10,18 +11,18 @@ import Use from "./components/Use/Use";
 
 function App() {
   return (
-    <div className="bg-black-color">
+    <div>
+      <FluidSimulation />
       <div className="md:container mx-auto px-4">
         <Header />
         <Hero />
-        <FeaturedCompany/>
-        <Feature/>
-        <Use/>
-        <Support/>
-        <Features/>
-        
+        <FeaturedCompany />
+        <Feature />
+        <Use />
+        <Support />
+        <Features />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
